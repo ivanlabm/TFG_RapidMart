@@ -1,0 +1,143 @@
+/* Estilo para el contenedor de productos */
+#productosContainer {
+    display: flex;
+    padding-left: 1rem;;
+    padding: 1rem;
+    background-color: grey;
+    justify-content: center; /* Centra el contenido cuando hay menos elementos por fila */
+    gap: 1rem; /* Espacio uniforme entre las cartas */
+  }
+  
+  /* Estilo para cada carta de producto */
+  .carta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+    flex: 0 1 calc(300px); /* Ajusta el ancho fijo para las cartas teniendo en cuenta el gap */
+    box-sizing: border-box; /* Asegura que el padding y el borde no afecten al ancho total */
+  }
+  
+  /* Estilo para la tarjeta de Bootstrap */
+  .card {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para la imagen de la tarjeta */
+  .card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Estilo para el cuerpo de la tarjeta */
+  .card-body {
+    padding: 1rem;
+  }
+  
+  /* Estilo para el título de la tarjeta */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para el texto de la tarjeta */
+  .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para el pie de la tarjeta */
+  #piecarta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo para el botón de comprar */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para el enlace dentro de la carta */
+  .carta a {
+    text-decoration: none;
+    color: black;
+  }
+  #separacion{
+    margin: 10px;
+  }
+
+  
+  footer {
+    background-color: #f8f9fa; /* Color de fondo del footer */
+    padding: 20px 0; /* Espaciado interno superior e inferior */
+    text-align: center; /* Centrar el contenido del footer */
+    font-size: 0.9rem; /* Tamaño de fuente para el texto del footer */
+    color: #6c757d; /* Color de texto del footer */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-top: auto; /* Empuja el footer hacia abajo */
+  }
+  
+  .container {
+    max-width: 1200px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centra el contenido del footer horizontalmente */
+  }
+  
+  .links {
+    margin-top: 10px; /* Espaciado superior para los enlaces */
+  }
+  
+  .links a {
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    color: #6c757d; /* Color de texto de los enlaces */
+    margin: 0 10px; /* Espaciado horizontal entre los enlaces */
+  }
+  
+  .links a:hover {
+    color: #007bff; /* Cambiar color al pasar el ratón por encima */
+  }
+
+  .opcionesbtn{
+    background-color: #8E2F5C;
+  }
+
+  .opciones{
+    text-decoration: none;
+    color: black;
+  }
+
+  .btncomprar{
+    background-color: #8E2F5C;
+  }
+
+  .btn{
+    background-color: #8E2F5C;
+  }
+
+  .drop{
+    background-color: black;
+    color: #f8f9fa;
+  }
+  
+  
+  

@@ -1,0 +1,110 @@
+header .navbar {
+  width: 100%;
+  padding: 0;
+  justify-content: space-between;
+}
+header img{
+  width: 50px;
+}
+#logo{
+  width:200px;
+
+}
+header{
+  justify-content: space-between;
+}
+ header li{
+  
+    margin: 20px;
+ }
+header .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar-brand {
+  flex: 1;
+}
+
+header .navbar-toggler {
+  flex: 0;
+}
+
+header .navbar-collapse {
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar-nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header .buscador {
+  border-radius: 50px; /* Ajusta esto según tus necesidades */
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid black;
+  
+}
+
+header .buscador2 {
+  flex: 0 0 85%;
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+  
+}
+
+.buscador2:focus {
+  border: none;
+  outline: none;
+}
+#lupa{
+  width: 25px;
+  background-color: white;
+  border: 0px;
+}
+.lupa{
+  width: 50px;
+  background-color: white;
+  border: 0px;
+}
+
+
+
+header .navbar-toggler-icon.men {
+  background-image: url('path-to-your-custom-icon.png');
+  /* Puedes personalizar el ícono aquí */
+}
+
+header .fotoUsuario {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border:1px solid black;
+}
+
+header .emailUsuario {
+  margin-left: 0.5rem;
+}
+
+#separacion{
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+  
+  
